@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page-launcher.component.css']
 })
 export class PageLauncherComponent implements OnInit {
-
+  hero = 'Windstorm';
   constructor() { }
 
   ngOnInit() {

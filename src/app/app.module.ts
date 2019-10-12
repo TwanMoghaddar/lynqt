@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { PageLauncherComponent } from './page-launcher/page-launcher.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageLauncherComponent,
   ],
   imports: [
     BrowserModule
